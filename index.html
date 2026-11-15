@@ -8713,7 +8713,7 @@ const BUILD_VERSION = '2026-11-13-l';
   async function checkOnce() {
     if (updateAvailable) return;
     try {
-      const res = await fetch('/version.json?t=' + Date.now(), { cache: 'no-store' });
+      const res = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
       if (!res.ok) return;
       const { version } = await res.json();
       if (version && version > BUILD_VERSION) {
