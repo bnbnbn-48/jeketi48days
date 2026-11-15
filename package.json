@@ -1,0 +1,24 @@
+{
+  "name": "jeketi-48days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnbnbn-48/jeketi48days.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bnbnbn-48/jeketi48days/issues"
+  },
+  "homepage": "https://github.com/bnbnbn-48/jeketi48days#readme",
+  "devDependencies": {
+    "wrangler": "^4.162.0"
+  }
+}
